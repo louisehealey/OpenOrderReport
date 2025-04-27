@@ -1,21 +1,30 @@
 # OpenOrderReport
 
-This **Power BI Report** provides an overview of **Open Purchase Orders** in the ERP System. The report allows you to slice the data based on **Vendor**, **Buyer**, and **Part ID**. It also includes custom buttons that leverage time intelligence to determine the status of each Purchase Order, whether it is **Late** or **Inbound**. Additionally, the report provides conditions to determine whether the items on the Purchase Order are currently in **IQC** (Incoming Quality Control).
+The **OpenOrderReport** Power BI dashboard provides a comprehensive overview of **Open Purchase Orders** from the ERP system. Users can filter and analyze the data by **Vendor**, **Buyer**, and **Part ID**.
+
+Custom buttons powered by time intelligence logic determine the status of each Purchase Order, identifying whether it is **Late** or **Inbound**. The report also flags items currently in **IQC** (Incoming Quality Control), aiding in proactive order and quality tracking.
 
 ![OpenOrderReport Screenshot](https://raw.githubusercontent.com/louisehealey/OpenOrderReport/main/OpenOrdeReport.png)
 
 ---
 
-### Last Refresh
+## ⏱️ Last Data Refresh
 
-By pointing the report to **[https://worldtimeapi.org/api/timezone/America/New_York](https://worldtimeapi.org/api/timezone/America/New_York)**, I am able to display the last time the data was refreshed when the report is using **Import Mode** to load the data. 
+The report uses [worldtimeapi.org](https://worldtimeapi.org/api/timezone/America/New_York) to display the last time the dataset was refreshed when using **Import Mode**.
 
 ![Refresh Screenshot](https://raw.githubusercontent.com/louisehealey/OpenOrderReport/main/Refresh%20Pic.png)
 
 ---
 
-### Power BI Demo
+## 🔘 In-Bound Button
+This calculated column flags Purchase Orders with delivery dates within the next **7 days**, helping teams prioritize and manage **upcoming deliveries** effectively.
 
-Here’s a quick look at the **Open Purchase Orders** report:
+---
+
+## 🖥️ Power BI Demo
+
+Explore the interactive **Open Purchase Orders** report in action:
 
 ![OpenOrderGIF](https://github.com/louisehealey/OpenOrderReport/blob/main/OpenOrderGIF)
+
+---
