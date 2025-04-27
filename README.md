@@ -4,15 +4,18 @@ This **Power BI Report** provides an overview of **Open Purchase Orders** in the
 
 ![OpenOrderReport Screenshot](https://raw.githubusercontent.com/louisehealey/OpenOrderReport/main/OpenOrdeReport.png)
 
+---
 
 ### Last Refresh
 
 By pointing the report to **[https://worldtimeapi.org/api/timezone/America/New_York](https://worldtimeapi.org/api/timezone/America/New_York)**, I am able to display the last time the data was refreshed when the report is using **Import Mode** to load the data. 
 
-[Refresh%20Pic.png](https://github.com/louisehealey/OpenOrderReport/blob/main/Refresh%20Pic.png)
+![Refresh Screenshot](https://raw.githubusercontent.com/louisehealey/OpenOrderReport/main/Refresh%20Pic.png)
 
+---
 
 ### Power BI Demo
+
 Here’s a quick look at the **Open Purchase Orders** report:
 
 ![OpenOrderGIF](https://github.com/louisehealey/OpenOrderReport/blob/main/OpenOrderGIF)
